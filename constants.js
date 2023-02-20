@@ -1,0 +1,11 @@
+const CONSTANTS = {
+    ALLOWED_USERS: [],
+    OPENAI_MODEL: '',
+    OPENAI_API_KEY: '',
+    OPENAI_MAX_TOKENS: '',
+    OPENAI_FREQUENCY_PENALTY: 0.0,
+    OPENAI_PRESENCE_PENALTY: 0.0,
+    TELEGRAM_BOT_TOKEN: '',
+};
+
+module.exports = { CONSTANTS };

@@ -1,0 +1,142 @@
+{
+    "sample1": {
+        "update_id": 765259711,
+        "message2": {
+            "message_id": 540,
+            "from": {
+                "id": 111111111,
+                "is_bot": false,
+                "first_name": "Galileo",
+                "last_name": "Teco",
+                "username": "galileo",
+                "language_code": "en"
+            },
+            "chat": {
+                "id": 111111111,
+                "first_name": "Galileo",
+                "last_name": "Teco",
+                "username": "galileo",
+                "type": "private"
+            },
+            "date": 1675887832,
+            "edit_date": 1675887869,
+            "text": "quien eres?"
+        }
+    },
+    "sample2": {
+        "update_id": 765259711,
+        "message": {
+            "message_id": 540,
+            "from": {
+                "id": 111111111,
+                "is_bot": false,
+                "first_name": "Galileo",
+                "last_name": "Teco",
+                "username": "galileo",
+                "language_code": "en"
+            },
+            "chat2": {
+                "id": 111111111,
+                "first_name": "Galileo",
+                "last_name": "Teco",
+                "username": "galileo",
+                "type": "private"
+            },
+            "date": 1675887832,
+            "edit_date": 1675887869,
+            "text": "quien eres?"
+        }
+    },
+    "sample3": {
+        "update_id": 765259711,
+        "message": {
+            "message_id": 540,
+            "from": {
+                "id": 111111111,
+                "is_bot": false,
+                "first_name": "Galileo",
+                "last_name": "Teco",
+                "username": "galileo",
+                "language_code": "en"
+            },
+            "chat": {
+                "id": 111111111,
+                "first_name": "Galileo",
+                "last_name": "Teco",
+                "username": "galileo",
+                "type": "private"
+            },
+            "date": 1675887832,
+            "edit_date": 1675887869,
+            "text": "/getid"
+        }
+    },
+    "resultTelegram1": {
+        "data": {
+            "ok": true,
+            "result": {
+                "message_id": 888,
+                "from": {
+                    "id": 6120723014,
+                    "is_bot": true,
+                    "first_name": "Multivac",
+                    "username": "multivabot"
+                },
+                "chat": {
+                    "id": 132511121,
+                    "first_name": "Galileo",
+                    "last_name": "Teco",
+                    "username": "genitalico",
+                    "type": "private"
+                },
+                "date": 1676850580,
+                "text": "132511121"
+            }
+        }
+    },
+    "sample4": {
+        "update_id": 765259711,
+        "message": {
+            "message_id": 540,
+            "from": {
+                "id": 111111111,
+                "is_bot": false,
+                "first_name": "Galileo",
+                "last_name": "Teco",
+                "username": "galileo",
+                "language_code": "en"
+            },
+            "chat": {
+                "id": 111111111,
+                "first_name": "Galileo",
+                "last_name": "Teco",
+                "username": "galileo",
+                "type": "private"
+            },
+            "date": 1675887832,
+            "edit_date": 1675887869,
+            "text": "quien eres?"
+        }
+    },
+    "resultOpenAI": {
+        "data": {
+            "id": "cmpl-6loRgwA030lRuHjbcxOZz4R7o59Ls",
+            "object": "text_completion",
+            "created": 1676853348,
+            "model": "text-davinci-003",
+            "choices": [
+                {
+                    "text": "la respuesta es 42",
+                    "index": 0,
+                    "logprobs": null,
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 14,
+                "completion_tokens": 134,
+                "total_tokens": 148
+            }
+        }
+    }
+}

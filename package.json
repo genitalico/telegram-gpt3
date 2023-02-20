@@ -1,0 +1,21 @@
+{
+    "name": "telegram-gpt3",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "prettier.w": "npx prettier --write .",
+        "start": "node index.js",
+        "tests": "npx jest tests/*.test.js"
+    },
+    "author": "Galileo Teco",
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^29.4.3",
+        "prettier": "^2.8.3"
+    },
+    "dependencies": {
+        "axios": "^1.2.6",
+        "openai": "^3.1.0"
+    }
+}
